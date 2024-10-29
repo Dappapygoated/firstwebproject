@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <h3>History Of Schools Dapo has Gone to</h3>
+    <ul type="diamond"><!--My School ranking from Imagination to PTC-->
+        <li> Imaginations Elementary School</li>
+        <!--Unordered list that doesnt have numbers listing them-->
+        <ul> 
+            <li>When i gained consciousness-2018</li>
+            <li> Bum school bro, i wouldnt donate to make it better</li>
+            <li> After i left didnt get easier icl</li>
+        </ul>
+        <li>BMJS</li>
+        <ul> 
+            <li>2018-2021</li>
+            <li> Lucky for me i was only there for 2 years because we came to Canada</li>
+            <li>The advertisements and pamphlets were lies bro</li>
+            <li>They used to beat us with bamboo sticks if we hadn't finishe dour work</li>
+            <li>But its all about the friends we made along the way</li>
+            <li>The toilets were broken too so they didnt flush</li>
+        </ul>
+        <li>Highbury</li>
+        <ul> 
+            <li>2021-2022</li>
+            <li> 100000/10 school bro</li>
+            <li>We got the greatest teacher of all time. Hilly j</li>
+            <li>Unfortunately had to move cs we moved houses</li>
+        </ul>
+        <li> Acadia Junior High</li>
+        <ul> 
+            <li>2022-2023</li>
+            <li>0/10. Any school were Zander has minions is a failed experiment</li>
+            <li> Everyone in our grade was scary</li>
+            <li> But at least we had a basketball court</li>
+        </ul>
+            
+            
+            <li> Pembina Trails Colligiates</li>      
+            <ul>      
+            <li>The friends we made along the way</li>
+            <li>People complain there arent a lotta courses, but im special i got into PTEC</li>
+            </ul>
+    </ul>
+
+    <h1>What Show am I watching right now?</h1>
+    <!--The checkbox means that i  can only pick one at a time, the id and value are what the system checks when i pick an option to see if if matches the right answer-->
+
+    <input type="checkbox" id="gossipGirl" name="show" value="Gossip Girl">
+    <label for="gossipGirl">Gossip Girl</label><br>
+    
+    <input type="checkbox" id="theBoys" name="show" value="The Boys">
+    <label for="theBoys">The Boys</label><br>
+    
+    <input type="checkbox" id="teenTitans" name="show" value="Teen Titans Go">
+    <label for="teenTitans">Teen Titans Go</label><br>
+    
+    <input type="checkbox" id="kardashian" name="show" value="The Kardashian">
+    <label for="kardashian">The Kardashian</label><br>
+    
+    <input type="checkbox" id="youngSheldon" name="show" value="Young Sheldon">
+    <label for="youngSheldon">Young Sheldon</label><br>
+    
+    <input type="button" value="Pick only one" onclick="msg()">
+    
+    <script>
+        function msg() {
+            // Get the checkbox elements and assign the variable
+            var gossipGirl = document.getElementById("gossipGirl");
+            var theBoys = document.getElementById("theBoys");
+            var teenTitans = document.getElementById("teenTitans");
+            var kardashian = document.getElementById("kardashian");
+            var youngSheldon = document.getElementById("youngSheldon");
+
+            // Check if "The Boys" is selected and no other checkbox is selected
+            if (theBoys.checked && !gossipGirl.checked && !teenTitans.checked && !kardashian.checked && !youngSheldon.checked) {
+                window.open("https://www.youtube.com/shorts/XDAhcVJIn34");//opens a link  if the boys is picked
+                alert("Billy is going to kill them all at the end. Don't even bother watching the series");
+            } else {
+                alert("Please select only 'The Boys' to proceed.");
+            }
+        }
+    </script>
+</body>
+<footer style="border-top: 5px solid black; padding: 10px;">No dolphins were hurt in the process <!--Adds a  border so people know its the end-->
+<img src="Images/Untitled design.png" width="100" height="100" style="border: 2px solid black;">
+<p>The DapperDapsy no L's taken intustry.. Patent pending</p>
+</footer>
